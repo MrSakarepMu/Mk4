@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NutritionActivity">
+
+    <!-- Elemen Utama (Optional, Sesuai Keperluan) -->
+    <RelativeLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!-- Konten Layout Relatif -->
+    </RelativeLayout>
+
+    <!-- ImageView Back Icon -->
+    <ImageView
+        android:id="@+id/imageView51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.11"
+        app:srcCompat="@drawable/iconback" />
+
+    <!-- ImageView Nutrition Icon -->
+    <ImageView
+        android:id="@+id/imageView53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.089"
+        app:srcCompat="@drawable/nutrion" />
+
+    <!-- ImageView Nutrition Menu -->
+    <ImageView
+        android:id="@+id/imageView54"
+        android:layout_width="393dp"
+        android:layout_height="182dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.225"
+        app:srcCompat="@drawable/menunutrion_transformed" />
+
+    <!-- ImageView Pancakes -->
+    <ImageView
+        android:id="@+id/imageView55"
+        android:layout_width="392dp"
+        android:layout_height="273dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.471"
+        app:srcCompat="@drawable/pancakes" />
+
+    <!-- ImageView Green Salad -->
+    <ImageView
+        android:id="@+id/imageView56"
+        android:layout_width="392dp"
+        android:layout_height="273dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.879"
+        app:srcCompat="@drawable/green_salad" />
+
+    <!-- ImageView Bar -->
+    <ImageView
+        android:id="@+id/imageView57"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.975"
+        app:srcCompat="@drawable/bar" />
+
+    <!-- ImageView Home Icon -->
+    <ImageView
+        android:id="@+id/imageView58"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.94"
+        app:srcCompat="@drawable/homeku" />
+
+    <!-- ImageView Menu Icon -->
+    <ImageView
+        android:id="@+id/imageView59"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.218"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.941"
+        app:srcCompat="@drawable/menu" />
+
+    <!-- ImageView User Icon -->
+    <ImageView
+        android:id="@+id/imageView60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.756"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.942"
+        app:srcCompat="@drawable/user" />
+</androidx.constraintlayout.widget.ConstraintLayout>
