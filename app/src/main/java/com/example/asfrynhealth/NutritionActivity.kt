@@ -36,5 +36,11 @@ class NutritionActivity : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
+        val imageStart10 = findViewById<ImageView>(R.id.imageView51)
+        imageStart10.setOnClickListener {
+            val intent = Intent(this@NutritionActivity, menu::class.java)
+            startActivity(intent)
+            finish()
+        }
     }
 }

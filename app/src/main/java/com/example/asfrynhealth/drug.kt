@@ -36,5 +36,11 @@ class drug : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
+        val imageStart7 = findViewById<ImageView>(R.id.imageView17)
+        imageStart7.setOnClickListener {
+            val intent = Intent(this@drug, menu::class.java)
+            startActivity(intent)
+            finish()
+        }
     }
 }

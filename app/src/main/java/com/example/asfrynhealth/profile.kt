@@ -42,5 +42,11 @@ class profile : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
+        val imageStart7 = findViewById<ImageView>(R.id.imageView26)
+        imageStart7.setOnClickListener {
+            val intent = Intent(this@profile, menu::class.java)
+            startActivity(intent)
+            finish()
+        }
     }
 }

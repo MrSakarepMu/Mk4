@@ -24,5 +24,11 @@ class coretraining : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
+        val imageStart11 = findViewById<ImageView>(R.id.imageView40)
+        imageStart11.setOnClickListener {
+            val intent = Intent(this@coretraining, Starttraining::class.java)
+            startActivity(intent)
+            finish()
+        }
     }
 }
